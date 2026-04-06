@@ -1,8 +1,9 @@
 import './style.css'
-import { initThreeJSBackground } from './threeBg.js';
+import { initThreeJSBackground, initAbout3D } from './threeBg.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   initThreeJSBackground();
+  initAbout3D();
 
   const observerOptions = {
     threshold: 0.1,
