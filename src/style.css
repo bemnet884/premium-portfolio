@@ -266,7 +266,7 @@ p {
     gap: 2rem;
   }
   .hero-3d-col {
-    order: -1;
+    display: none;
   }
   .hero-canvas-right {
     height: 300px;
@@ -451,8 +451,8 @@ p {
     padding-bottom: 3rem;
     margin-bottom: 2rem;
   }
-  .offer-portrait {
-    max-height: 300px;
+  .about-3d-canvas {
+    display: none;
   }
 }
 @media (max-width: 600px) {
